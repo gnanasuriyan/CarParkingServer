@@ -1,0 +1,42 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		div#templatemo_header_wrapper
+			div#templatemo_header
+				div#site_logo
+				div#templatemo_menu
+					div#templatemo_menu_left
+					ul
+						li
+							a.current(href="#home") Home
+						li
+							a(href="#admin")	Admin
+						li
+							a.last(href="#contact") Contact
+			// End of header
+		// End of header_wrapper
+		//div#templatemo_banner_wrapper
+		//	div#templatemo_banner
+		//		div#templatemo_banner_image
+		//			div#templatemo_banner_image_wrapper
+		//				img(src="images/templatemo_image_01.jpg", alt="Banner Image")
+		//templatemo_banner_wrapper
+		
+		//End of templatemo_banner_wrapper
+		div#templatemo_content_wrapper
+			div#templatemo_content
+				block content
+		//End of templatemo_content_wrapper
+		
+		// div#templatemo_footer_wrapper
+			// div#templatemo_footer
+				// h3 &copy Gnanasuriyan
+		script(type='text/javascript', src='/javascripts/lib/jquery-1.11.0.min.js')
+		script(type='text/javascript', src='/javascripts/lib/knockout-3.0.0.js')
+		script(type='text/javascript', src='/javascripts/lib/knockout.mapping-latest.js')
+		script(type='text/javascript', src='/javascripts/lib/sammy.min.js')
+		script(type='text/javascript', src='/javascripts/lib/jquery.jscroll.js')
+		script(type='text/javascript', src='/javascripts/lib/require.js', data-main="/javascripts/require-init.js")
