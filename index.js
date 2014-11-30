@@ -11,7 +11,7 @@ var index = require('./routes/index');
 //var tables = require('./routes/tables');
 //var decusoft = require('./routes/decusoft');
 
-//console.log('loading mongoose moodule');
+console.log('loading mongoose moodule');
 
 var mongoose = require('mongoose');
 
